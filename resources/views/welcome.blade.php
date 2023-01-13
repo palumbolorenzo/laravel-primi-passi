@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: rgb(60, 60, 60);
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -46,10 +46,17 @@
 
             .title {
                 font-size: 84px;
+                color: #f1eb34ff;
+            }
+
+            .title:hover {
+                transform: scale(1.05);
+                transition: 1s;
+                cursor: pointer;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #f1eb34ff;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -81,7 +88,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Boolean
                 </div>
 
                 <div class="links">
